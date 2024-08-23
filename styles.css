@@ -146,12 +146,63 @@ p {
   background-color: rgb(238, 238, 230);
 }
 
+.container:hover {
+  background-color: rgb(238, 238, 230);
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .nav {
     padding-right: 0px;
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 15px -3px;
   }
-  .projects {
-  }
+  /* .projects {
+  } */
+}
+
+.html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: aliceblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 90vw;
+  max-width: 90vw;
+}
+
+.profile-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.profile-photo img {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
+.title-card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex: 1;
+  align-items: flex-start;
 }
